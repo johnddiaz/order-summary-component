@@ -1,41 +1,125 @@
 html {
-  height: auto;
+	height: auto;
 }
 
 body {
-  background-image: url(images/pattern-background-mobile.svg);
-  background-repeat: no-repeat;
-  background-color: hsl(225, 100%, 98%);
-  height: 100%;
+	background-image: url(images/pattern-background-mobile.svg);
+	background-repeat: no-repeat;
+	background-color: hsl(225, 100%, 98%);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	max-height: 100vh;
+}
+
+#placement {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 54px;
 }
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
+	font-size: 11px;
+	text-align: center;
+	margin-top: 54px;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+	color: hsl(228, 45%, 44%);
 }
 
 .card {
-  border-radius: 7px;
-  background-color: white;
-  width: inherit;
+	border-radius: 10px;
+	width: inherit;
+	background-color: white;
+}
+
+#icon-music {
+}
+
+#order-cancel {
+	margin-top: 24px;
+}
+#order-cancel:hover {
+	cursor: pointer;
+}
+
+#order-body {
+	padding: 32px 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#order-body-text {
+	margin-top: 24px;
+	margin-bottom: 0;
 }
 
 #order-image {
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 #order-summary-card {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 300px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	height: 100%;
+	width: 300px;
+	box-shadow: rgb(163 163 255) 0px 10px 27px -16px;
+}
+
+#order-title {
+	margin: 0;
+}
+
+#payment-proceed {
+	background-color: hsl(245, 75%, 52%);
+	padding: 16px;
+	text-align: center;
+	width: 100%;
+	color: white;
+	margin-top: 24px;
+	box-shadow: rgb(163 163 255) 0px 8px 20px -5px;
+}
+#payment-proceed:hover {
+	cursor: pointer;
+	background-color: hsl(245, 75%, 70%);
 }
 
 #plan-card {
-  background-color: hsl(0, 0%, 81%);
+	display: flex;
+	align-items: center;
+	background-color: hsl(225, 100%, 99%);
+	padding: 16px;
+	margin-top: 24px;
+	width: 100%;
+}
+
+#plan-change {
+	display: block;
+	margin-left: auto;
+}
+#plan-change:hover {
+	text-decoration-line: none;
+}
+
+#plan-type {
+	margin: 0;
+}
+
+#plan-cost {
+	margin: 0;
+}
+
+#subscription {
+	display: flex;
+	flex-direction: column;
+	margin-left: 16px;
 }
