@@ -1,0 +1,41 @@
+html {
+  height: auto;
+}
+
+body {
+  background-image: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 98%);
+  height: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  border-radius: 7px;
+  background-color: white;
+  width: inherit;
+}
+
+#order-image {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+#order-summary-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 300px;
+}
+
+#plan-card {
+  background-color: hsl(0, 0%, 81%);
+}
